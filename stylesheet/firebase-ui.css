@@ -197,6 +197,10 @@ input.firebaseui-input-invalid{
   background-color: #dd2c00;
 }
 
+#firebaseui-submitbutton {
+ background: #3cabad;
+}
+
 .firebaseui-button {
   display: inline-block;
   height: 36px;
