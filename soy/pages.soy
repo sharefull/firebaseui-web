@@ -55,7 +55,8 @@
   <div class="mdl-card mdl-shadow--2dp firebaseui-container firebaseui-id-page-password-sign-in">
     <form onsubmit="return false;">
       <div class="firebaseui-card-header">
-        <h1 class="firebaseui-title">{msg desc="Header of a sign-in page."}Sign in{/msg}</h1>
+        <img alt="" class="sharefull-logo" src="https://sharefull.com/wp-content/themes/sharefull/img/it_1.png">
+        <div class="sharefull-title" title="シェアフル">シェアフル</div>
       </div>
       <div class="firebaseui-card-content">
         {call firebaseui.auth.soy2.element.email data="all" /}
@@ -133,9 +134,8 @@
   <div class="mdl-card mdl-shadow--2dp firebaseui-container firebaseui-id-page-password-recovery">
     <form onsubmit="return false;">
       <div class="firebaseui-card-header">
-        <h1 class="firebaseui-title">
-          {msg desc="Header of a password recovery page."}Recover password{/msg}
-        </h1>
+        <img alt="" class="sharefull-logo" src="https://sharefull.com/wp-content/themes/sharefull/img/it_1.png">
+        <div class="sharefull-title" title="シェアフル">パスワード再設定</div>
       </div>
       <div class="firebaseui-card-content">
         <p class="firebaseui-text">
@@ -158,9 +158,6 @@
             {/param}
           {/call}
         </div>
-      </div>
-      <div class="firebaseui-card-footer">
-        {call firebaseui.auth.soy2.element.tosPpLink data="all" /}
       </div>
     </form>
   </div>

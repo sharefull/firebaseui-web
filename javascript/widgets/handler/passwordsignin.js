@@ -63,6 +63,6 @@ firebaseui.auth.widget.handler.handlePasswordSignIn = function(
 
 // Register handler.
 firebaseui.auth.widget.handler.register(
-    firebaseui.auth.widget.HandlerName.PASSWORD_SIGN_IN,
+    firebaseui.auth.widget.HandlerName.SIGN_IN,
     /** @type {firebaseui.auth.widget.Handler} */
     (firebaseui.auth.widget.handler.handlePasswordSignIn));
