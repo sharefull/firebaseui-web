@@ -40,8 +40,23 @@
 
 .firebaseui-card-header {
   padding: 24px 24px 0 24px;
+  text-align: center;
 }
 
+.sharefull-logo {
+  width: auto;
+  height: 58px;
+  display: inline-block;
+  margin: 0 0 11px;
+  vertical-align: middle;
+  transition: margin-top 0.4s;
+}
+
+.sharefull-title {
+  font-size: 22px;
+  padding: 0 10px;
+  line-height: 30px;
+}
 
 .firebaseui-card-content {
   padding: 0 24px;

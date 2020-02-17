@@ -25,27 +25,23 @@
   <div class="mdl-card mdl-shadow--2dp firebaseui-container firebaseui-id-page-sign-in">
     <form onsubmit="return false;">
       <div class="firebaseui-card-header">
-        <h1 class="firebaseui-title">
-          {msg desc="Header of the email/password sign-in page."}Sign in with email{/msg}
-        </h1>
+        <img alt="" class="sharefull-logo" src="https://sharefull.com/wp-content/themes/sharefull/img/it_1.png">
+        <div class="sharefull-title" title="シェアフル">シェアフル</div>
       </div>
       <div class="firebaseui-card-content">
         <div class="firebaseui-relative-wrapper">
           {call firebaseui.auth.soy2.element.email data="all" /}
+          {call firebaseui.auth.soy2.element.password /}
         </div>
       </div>
       <div class="firebaseui-card-actions">
+        <div class="firebaseui-form-links">
+          {call firebaseui.auth.soy2.element.passwordRecoveryButton /}
+        </div>
         <div class="firebaseui-form-actions">
-          {call firebaseui.auth.soy2.element.submitButton /}
+          {call firebaseui.auth.soy2.element.signInButton /}
         </div>
       </div>
-//      <div class="firebaseui-card-footer">
-//        {if $displayFullTosPpMessage}
-//          {call firebaseui.auth.soy2.element.fullMessageTosPp data="all" /}
-//        {else}
-//          {call firebaseui.auth.soy2.element.tosPpLink data="all" /}
-//        {/if}
-//      </div>
     </form>
   </div>
 {/template}
