@@ -3,7 +3,7 @@
   "version": "4.4.0",
   "description": "Javascript library for customizable UI on top of Firebase SDK",
   "files": [
-    "dist/firebaseui.js",
+    "dist/firebaseui__ja.js",
     "dist/firebaseui.css",
     "dist/npm__ja.js",
     "dist/esm.js",
