@@ -6,7 +6,7 @@
     "dist/firebaseui__ja.js",
     "dist/firebaseui.css",
     "dist/npm__ja.js",
-    "dist/esm.js",
+    "dist/esm__ja.js",
     "dist/index.d.ts",
     "dist/externs",
     "LICENSE",
@@ -14,7 +14,7 @@
     "package.json"
   ],
   "main": "./dist/npm__ja.js",
-  "module": "./dist/esm.js",
+  "module": "./dist/esm__ja.js",
   "types": "./dist/index.d.ts",
   "style": "dist/firebaseui.css",
   "scripts": {
